@@ -27,7 +27,7 @@ namespace Business.Tests.SetupAndTeardown
         }
 
         [Test]
-        [Ignore("reason")]
+        //[Ignore("reason")]
         public void IsDead_KillCharacter_ReturnsTrue()
         {        
             _character.Damage(500);
